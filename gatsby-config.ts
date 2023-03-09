@@ -5,9 +5,9 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    siteTitle: `Tan codes`,
-    siteTitleAlt: `Minimal Blog`,
-    siteHeadline: `Minimal Blog`,
+    siteTitle: `Tan Codes`,
+    siteTitleAlt: `Tan Codes Blog`,
+    siteHeadline: `Tan Codes Blog`,
     siteUrl: `https://tancodes.com`,
     siteDescription: `Tancodes - Hoàng Tân Tân.`,
     siteImage: `/banner.jpg`,
@@ -32,12 +32,16 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
+            name: `Đồ mình dùng`,
+            url: `https://beacons.ai/tancodes`,
+          },
+          {
             name: `Tiktok`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `http://tiktok.com/@tancodes1911`,
           },
           {
             name: `Instagram`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            url: `https://www.instagram.com/tancodes1911/`,
           },
         ],
       },
@@ -51,9 +55,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Tan Codes Blog`,
+        short_name: `tan-codes-blog`,
+        description: `Tan Codes - Hoàng Tân Tânn`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
@@ -120,7 +124,7 @@ const config: GatsbyConfig = {
   }
 }`,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Tan Codes`,
           },
         ],
       },
