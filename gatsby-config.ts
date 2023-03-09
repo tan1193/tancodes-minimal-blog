@@ -8,8 +8,8 @@ const config: GatsbyConfig = {
     siteTitle: `Tan codes`,
     siteTitleAlt: `Minimal Blog`,
     siteHeadline: `Minimal Blog`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteUrl: `https://tancodes.com`,
+    siteDescription: `Tancodes - Hoàng Tân Tân.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `@Tancodes`,
@@ -32,11 +32,11 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
+            name: `Tiktok`,
             url: `https://twitter.com/lekoarts_de`,
           },
           {
-            name: `Homepage`,
+            name: `Instagram`,
             url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
           },
         ],
